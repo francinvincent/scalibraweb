@@ -1,0 +1,51 @@
+<a class="navbar-brand" href="/">
+    <img src="img/logo1_scalibra.png" width="200" height="80">
+</a>
+<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="main-navigation">
+    <ul class="navbar-nav">
+        <li id="menu-item-1" class="nav-item">
+            <a class="nav-link" href="/">
+                <i class="fas fa-home"></i>
+                <span>Hjem</span>
+            </a>
+        </li>
+        <li id="menu-item-2" class="nav-item">
+            <a class="nav-link" href="/tjenester/">
+                <i class="fas fa-briefcase"></i>
+                <span>Tjenester</span>
+            </a>
+        </li>
+        <li id="menu-item-3" class="nav-item">
+            <a class="nav-link" href="/hvem-er-vi/">
+                <i class="fas fa-user-tie"></i>
+                <span>Om oss</span>
+            </a>
+        </li>
+        <li id="menu-item-4" class="nav-item">
+            <a class="nav-link" href="/kontakt/">
+                <i class="fas fa-phone-alt"></i>
+                <span>Kontakt</span>
+            </a>
+        </li>
+        <li id="menu-item-5" class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-sign-in-alt"></i>
+                <span>Logg inn</span>
+            </a>
+        </li>
+        <li id="menu-item-6" class="nav-item">
+            <a href="#" class="btn-small btn-border">Nettbutikk</a>
+        </li>
+    </ul>
+</div>
+
+<script>
+    var titlehome = document.title;
+    if(titlehome === "Scalibra AS"){
+        var element = document.getElementById("menu-item-1");
+        element.parentNode.removeChild(element);
+    };
+</script>
