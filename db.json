@@ -2,7 +2,10 @@
     "posts": [
       {
         "id": 1,
-        "title": "hello"
+        "contact-name": "Francin Vincent",
+        "company-name": "Scalibra AS",
+        "email-cont": "francin.vinc@gmail.com",
+        "tel-cont": "46629490",
       }
     ],
     "profile": {
